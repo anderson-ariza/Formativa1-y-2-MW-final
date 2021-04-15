@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Sistema Acordeón</title>
+        <meta title="Sistema Acordeón">
+        <meta charset="utf-8">
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Meta que permite la correcta visualización en Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Librería PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Llamado a librería de Íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Llamado a Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body class="apóstol-mío">
+
+        <header>
+            
+        </header>
+
+        <main>
+            <!-- Sistema Acordeón -->
+            <section id="acordeon">
+                <article>
+                    <div id="caja-acordeon">
+                        <div class="fila-acordeon" id="fila-01">
+                            <a href="#" id="abre-fila-01" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">¿Qué es Apóstol Mío?</span>
+                            </a>
+
+                            <figure id="conte-fila-01">
+                                <p><img src="img/foto-slide-001-arcodeon.jpg"> Apóstol Mío es un medio digital para la evangelización de las almas, predicamos por medio de la creatividad, compartimos imágenes, videos, frases, evangelio del día y mucho más.
+                                    <br><br>
+                                    Este hermoso proyecto de Dios nació por inspiración del Espíritu Santo un día en cuarentena en los corazones de Anderson Ariza Otero y Lilia Barrios Palma, jóvenes misioneros de la comunidad católica Lazos de Amor Mariano.
+                                    <br><br>
+                                    Nuestro mayor anhelo es que el mensaje de Dios y de la Santísima Virgen María sea escuchado en todo el mundo.</p>
+                            </figure>
+                        </div>
+
+                        <div class="fila-acordeon" id="fila-02">
+                            <a href="#" id="abre-fila-02" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">Conoce más sobre la Virgen María</span>
+                            </a>
+                            
+                            <figure id="conte-fila-02">
+                                <p><img src="img/foto-slide-002-arcodeon.jpg"> María nació en Nazaret, Galilea, 15 ó 20 años antes del nacimiento de Cristo. Sus padres, según la tradición, fueron Joaquín y Ana. María era judía. Fue educada en la lectura de los libros santos y en la obediencia a la ley de Dios.</p>
+                            </figure>
+                        </div>
+
+                        <div class="fila-acordeon" id="fila-03">
+                            <a href="#" id="abre-fila-03" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">Conoce más sobre Jesús</span>
+                            </a>
+                            <figure id="conte-fila-03">
+                                <p><img src="img/foto-slide-003-arcodeon.jpg"> ¿Superdotado, revolucionario, soñador, filósofo? Mucha gente dice que eso era Jesucristo. Pero, ¿quién dice la Biblia que es Jesús? ¿Qué nos enseña la Iglesia? Jesús significa “Salvador”; Cristo, en su raíz hebrea, significa “Ungido”. De modo que ambos términos se conjugan en el nombre compuesto, Jesucristo. Su nombre es espectacular, y su persona majestuosa.
+                                    <br><br>    
+                                    Jesús es el Dios que encarnó en el cuerpo de una Virgen. Fue bautizado por el Espíritu Santo, que descendió del cielo en forma de paloma y se posó sobre Él mientras se escuchaba una voz potente que decía: “Este es mi Hijo amado, en quien me complazco. A Él escuchen”.
+                                    <br><br>
+                                    Él no era sólo eso. Jesús es el enviado de Dios, el Mesías anunciado por las Escrituras a través de los profetas. Jesucristo es el Rey del cielo, el que hoy está sentado a la diestra del Padre. Emanuel (Dios con nosotros). Es Aquel que vino a ofrecer salvación a todo quien quiera creer en Él. Jesucristo es la segunda persona de la Trinidad, Jesucristo es Dios.</p>
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            
+        </footer>
+        
+
+
+        <!-- Zona de Scripts -->
+
+        <!-- Carga de jQuery -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+        <!-- Cargar librería jQuery Easing -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar librería FancyApps.com -->
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        -->
+
+        <!-- Cargar Librería Slick Slider -->
+        <!--
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        -->
+
+        <!-- JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
